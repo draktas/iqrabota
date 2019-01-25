@@ -1,0 +1,120 @@
+﻿html {
+	font-family:sans-serif
+}
+A.dot {
+	width:99%;
+    margin: auto;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+    background: #242424; 
+	
+}
+A.dot1 {
+	width:100%;
+    margin: auto;
+    line-height: 50px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+   background: #ff6400;
+}
+a.dot:hover,
+a.dot1:hover  { 
+background: #ff9900; } 
+a.dot:active,
+a.dot1:active {
+	background: #ff3e00; } 
+#footer {
+    position: fixed; 
+    left: 0; bottom: 0; 
+    background: #242424; 
+    color: #fff; 
+    width: 100%; 
+	padding: 20px;
+	font-size: small;
+}
+A.pad {
+	color: white;
+	margin-left: 30px;
+}
+#vklad {
+	width:60%;
+	height: 60%;
+	margin: 10px 30px;
+	background:#ebebeb;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: 90px 40px 40px 40px 40px 40px 40px;
+	text-align: right;
+}
+#hleb {	
+margin: 10px 30px;
+}
+A.hleb {
+	color: black;
+	margin-left: 0px;
+	margin-right: 5px;
+}
+#shap {
+	display: grid;
+    background: #ff6400;
+	grid-template-columns:16.6666% 16.6666% 16.6666% 16.6666% 16.6666% 16.6666%;
+	/* grid-template-columns: 250px 200px 250px 200px 200px 250px ;*/
+	grid-template-rows: 50px;
+
+}
+h1 {
+	text-align: center;
+	color: #ff6400;
+}
+
+input[type=range] { 
+  -webkit-appearance: none; 
+  border: none; /* убрать рамку в Firefox */
+  width: 85%;
+  height: 10px;  
+  border-radius: 100px; 
+  color: #4d7198; 
+  background: #ff6400;
+  background-image: linear-gradient(to right, black 1px, transparent 1px),
+    linear-gradient(black 1px, rgba(255, 255, 255, .1) 1px, rgba(0, 0, 0, .1));
+  background-size: 5% 100%, 100% 100%;
+}
+input[type="range"]::-webkit-slider-thumb{
+	-webkit-appearance:none;
+	-moz-apperance:none;
+	width:18px;
+	height:18px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	-ms-border-radius:20px;
+	-o-border-radius:20px;
+	border-radius:20px;
+	background-image:-webkit-gradient(linear, left top, left bottom, color-stop(0, #fefefe), color-stop(0.49, #d7d7d7), color-stop(0.51, #d1d1d1), color-stop(1, #c8c8c8) );
+	border: 1px solid #787878;
+}
+input.but {
+	font-weight: 700;
+	color: black;
+	text-decoration: none;
+	padding: 15;
+	border-radius: 10px;
+	background: rgb(127,255,0);
+	box-shadow: inset 0 0 6px;
+	transition: 0.2s;
+} 
+input.but:hover { 
+	background: #ff6400; 
+	box-shadow: 0 -2px rgb(0,0,0) inset;
+	box-shadow: inset 0 0 10px;
+}
+input.but:active {
+  background: #ff6400;
+  box-shadow: 0 3px rgb(33,147,90) inset;
+}
+
+
