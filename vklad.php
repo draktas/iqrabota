@@ -71,11 +71,11 @@ return false;
 	<div>
 		Срок вклада 
 		<select id="god" style="width:90px" name="god">
-			<option value='1 год'>1 Год</option>
-			<option value='2 года' >2 Года</option>
-			<option value='3 года'>3 Года</option>
-			<option value='4 года'>4 Года</option>
-			<option value='5 лет'>5 Лет</option>
+			<option value='1'>1 Год</option>
+			<option value='2' >2 Года</option>
+			<option value='3'>3 Года</option>
+			<option value='4'>4 Года</option>
+			<option value='5'>5 Лет</option>
 		</select>
 	</div>
 	<div>
