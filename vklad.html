@@ -10,7 +10,7 @@
     var name3 = $('input:radio[name=pop]:checked').val();
 	var name4 = $('#sum2').val();
 	$.ajax({
- url: 'rabota/calc.php',
+ url: 'calc.php',
  type: "POST",
  data:'datej='+name+'&sum='+name1+'&god='+name2+'&pop='+name3+'&pops='+name4,
  success: function(data) {
